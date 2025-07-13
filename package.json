@@ -1,14 +1,13 @@
 {
   "name": "vscode-starter",
   "version": "0.0.1",
-
   "main": "./out/extension.cjs",
   "module": "index.ts",
   "type": "module",
   "dependencies": {},
   "devDependencies": {
-    "esbuild": "^0.25.6",
-    "vscode": "^1.1.37"
+    "@types/vscode": "^1.102.0",
+    "esbuild": "^0.25.6"
   },
   "engines": {
     "vscode": "^1.1.37"
